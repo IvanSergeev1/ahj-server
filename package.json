@@ -1,0 +1,32 @@
+{
+  "name": "http-task",
+  "version": "1.0.0",
+  "description": "\"HTTP Hometask\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanSergeev1/ahj-server.git"
+  },
+  "keywords": [
+    "hometask"
+  ],
+  "author": "Ivan Sergeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanSergeev1/ahj-server.git/issues"
+  },
+  "homepage": "https://github.com/IvanSergeev1/ahj-server.git#readme",
+  "dependencies": {
+    "forever": "^3.0.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "uuid": "^8.3.0"
+  }
+}
